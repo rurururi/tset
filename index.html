@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico">
+    <title>pst</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f5c439f309.js" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+<div class="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" id="b1" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" id="b2" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" id="b3" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" id="b4" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://scontent.fmnl4-5.fna.fbcdn.net/v/t1.15752-9/317894229_1598605437222580_2385841288367004556_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHU-epLvZyAbED6klMTaoJUjY8GLUe3kwmNjwYtR7eTCVeq6jF_w4wKV7bEHd6UjEp8IYCFMj7lGg01cJW0pwyx&_nc_ohc=6qIdDD_A17cAX-Yx5EY&_nc_ht=scontent.fmnl4-5.fna&oh=03_AdRQmUJv6_G1AeQzwNP8LuferUMgvbE19Amsgn4d-dpPOg&oe=63B97E60" width="550" height="450">
+
+        </div>
+        <div class="carousel-item">
+          <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/316277934_565906392022385_2470529809335431735_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGMnNFv1zh6Lhj2BvynxlVRHGRn6-M-K58cZGfr4z4rn7-W20X85sQkJhYGuhI8JX6rlnvZaK-VJ1Vb7uFQXhNL&_nc_ohc=S1HO6tLFzJIAX8bsfFz&tn=DlXqc_TCw7mP0Ug4&_nc_ht=scontent.fmnl4-2.fna&oh=03_AdTJConxQh7qE9BhaYX-1SYOuT6G1sa3dXO2x41er2LXVA&oe=63B95054" width="550" height="450">
+
+        </div>
+        <div class="carousel-item">
+          <img src="https://scontent.fmnl4-6.fna.fbcdn.net/v/t1.15752-9/317793154_454435400213482_5240187846914209546_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeETlGKtquQTBv2E685pjCRIhSKfr9o7hJmFIp-v2juEmaC0eGIki1clLWwPpWnFQEgIJtX8AsEV0Xw7AcjLMiLS&_nc_ohc=u5neyudkMscAX8lf0WV&_nc_ht=scontent.fmnl4-6.fna&oh=03_AdQ0sgEprU1I7biMKahg6MZBCHr1GIn4-hOKMH12M3e4qg&oe=63B9625C" width="550" height="450">
+
+        </div>
+        <div class="carousel-item">
+          <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/318381703_1175055350072160_6890333415806505762_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGMwxACCIZ9V-i_92Tp_6pY-dGeITA2mQT50Z4hMDaZBOgqnQeB5VE5HaIBC9EbkWnThfVkzUYYv7UdUDGLhbsq&_nc_ohc=OlWXJRjxZTsAX9clpFT&_nc_ht=scontent.fmnl4-2.fna&oh=03_AdSUfFnB9l1zUUgH74mg1hxvZ253Kud_f-qvDEQn2CMFZA&oe=63B9616C" width="550" height="450">
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+</div>
+<div class="ashford">
+    <h1>CA/TO 101</h1>
+</div>
+<!--
+<div class="ewan d-flex justify-content-evenly">
+  <div class"socmed ">
+    <a href="https://last.fm/user/rurururi" class="fa-brands fa-lastfm" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="last.fm"></a>
+    <a href="https://www.twitch.tv/ruri1" class="fa-brands fa-twitch" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitch"></a>
+    <a href="https://gfycat.com/@rururi" class="fa-solid fa-g" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Gfycat"></a>
+    <a href="https://github.com/rurururi" class="fa-brands fa-github" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Github"></a>
+    <a href="https://www.reddit.com/user/FlappyVerb" class="fa-brands fa-reddit" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Reddit"></a>
+    <a href="#" class="fa-brands fa-discord" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Copy to clipboard" data-type="attribute" data-attr-name="data-clipboard-text" data-clipboard-text="ruri#8175"></a>
+    <a href="https://marble-sweatshirt-721.notion.site/idk-man-0e1e8216fe0c4f459d67dd6cbef3fbb9" class="fa-solid fa-book" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Websites I use"></a>
+    </a>
+  </div>
+</div>
+-->
+  </body>
+</html>
